@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+
+	"name": "Toggle NBA Score Carousel",
+	"description": "Allows you to toggle the visibility of the score carousel when watching NBA games.",
+	"version": "1.0",
+	
+	"content_scripts" : [
+		{
+			"matches": ["*://www.nba.com/game/*"],
+			"js": ["toggle_button.js"]
+		}
+	],
+
+	"permissions": ["tabs"]
+    
+}
