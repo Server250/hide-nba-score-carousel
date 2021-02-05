@@ -8,7 +8,7 @@ hide_carousel = () => {
     scoreCarouselContent.style.display = "none";
 
     // Move the content of the page up to account for smaller header
-    gameWrapper.style.paddingTop = "2rem";
+    gameWrapper.style.paddingTop = "3rem";
 
     carousel_hidden = true;
 
